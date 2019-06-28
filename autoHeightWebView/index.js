@@ -65,6 +65,7 @@ const AutoHeightWebView = forwardRef((props, ref) => {
       {...props}
       ref={webView}
       onMessage={hanldeMessage}
+      dataDetectorTypes={'link'}
       style={[
         styles.webView,
         {
